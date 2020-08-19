@@ -26,7 +26,7 @@ export default function Footer() {
                     </p>
                     <hr />
                 </div>
-                <div className={"input"}>
+                <div className={"input"} id={"contact"}>
                     <input type={"text"} placeholder={"Name"} />
                     <input type={"text"} placeholder={"Email"} />
                     <input type={"text"} placeholder={"Sujet"} />

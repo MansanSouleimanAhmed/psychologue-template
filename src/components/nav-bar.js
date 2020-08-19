@@ -1,14 +1,22 @@
 import React, {useState} from "react";
 import {useSpring, animated, useTrail} from "react-spring";
 import {Parallax} from "react-scroll-parallax";
+import Contact from "./nav-bar/contact";
+import Home from "./nav-bar/home";
+import SectionOne from "./nav-bar/section-one";
+import SectionTwo from "./nav-bar/section-two";
+import SectionThree from "./nav-bar/section-three";
+import SectionFour from "./nav-bar/section-four";
+
 export default function Navbar() {
     const [toggleNav, setToggleNav] = useState(false);
     const items = [
-        "Home",
-        "Formation",
-        "Activités",
-        "Expériences et acquis",
-        "Psychologie et Psychanalyse",
+        <Home />,
+        <SectionOne />,
+        <SectionTwo />,
+        <SectionThree />,
+        <SectionFour />,
+        <Contact />,
     ];
     const config = {mass: 5, tension: 2000, friction: 200};
     const trail = useTrail(items.length, {
