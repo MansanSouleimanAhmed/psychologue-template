@@ -17,7 +17,7 @@ export default function Header() {
         }, 3000);
         return () => clearInterval(init);
     }, [slideImg]);
-    console.log(slideImg);
+
     return (
         <Fragment>
             <Navbar />

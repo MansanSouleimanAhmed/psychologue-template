@@ -5,7 +5,7 @@ export default function SectionThree() {
         <Fragment>
             <section className={"section-three"} id={"section-three"}>
                 <div className={"text-three"}>
-                    <strong id={"text"}>{"Parcours Formation"}</strong>
+                    <h1 id={"text"}>{"Parcours Formation"}</h1>
                     <ul>
                         <li>{"En cours : Thèse de doctorat : "}</li>
                         <li>
@@ -68,7 +68,7 @@ export default function SectionThree() {
                             }
                         </li>
                     </ul>
-                    <strong>{"Articles"}</strong>
+                    <h2>{"Articles"}</h2>
                     <p>
                         {
                             "F. Burdot « Expertises et outils d’évaluation médico-psychologiques ». In  Ph. Bessoles « Criminalité et Récidive. Evaluation. Clinique. Thérapeutique. Interculturel. ». Presse Universitaire de Grenoble. Grenoble, 2007."
@@ -84,7 +84,7 @@ export default function SectionThree() {
                             "Porcelli P, Affatati V., Michel A., Burdot F., Todarello O., Bellomo A., Mormont C. (2004). Valutazione del Transsessualismo Primario e Secondario Tramite il Rorschach Comprehensive System. Confronto Trans-Culturale di due Gruppi di Transessuali Italiani e Belgi. Psichiatra e Psicoterapia, 23, 1, 30-42."
                         }
                     </p>
-                    <strong>{"Communications scientifiques"}</strong>
+                    <h2>{"Communications scientifiques"}</h2>
                     <p>
                         {
                             "Discutant régulier dans des émssions télévisées (RTL TVI et RTBF)"

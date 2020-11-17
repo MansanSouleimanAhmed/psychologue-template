@@ -5,7 +5,7 @@ export default function SectionFour() {
         <Fragment>
             <section className={"section-four"} id={"section-four"}>
                 <div className={"text-four"}>
-                    <strong id={"text-four"}>{"Psychothérapeutique"}</strong>
+                    <h1 id={"text-four"}>{"Psychothérapeutique"}</h1>
                     <p>
                         {
                             "Mise en place de nombreux suivis psychothérapeutiques d’orientation analytique de problématiques variées au sein de la clinique universitaire et en cabinet privé."
@@ -31,7 +31,7 @@ export default function SectionFour() {
                             "Psychologue au sein de l’équipe pluridisciplinaire de prise en charge des candidats au changement de sexe : diagnostic et suivi de soutien durant les 3 années de la phase de transformation (actuellement, suivi d’une trentaine de candidats)."
                         }
                     </p>
-                    <strong>{"Enseignement"}</strong>
+                    <h2>{"Enseignement"}</h2>
                     <p>
                         {
                             "Certificat Universitaire interfacultaire en Sexologie, ULg."
@@ -52,13 +52,13 @@ export default function SectionFour() {
                             "Suppléance du cours d’« Application des techniques projectives » (60 heures) en 2003-2004, 2004-2005 et 2005-2006."
                         }
                     </p>
-                    <strong>{"Psycho-Légal"}</strong>
+                    <h2>{"Psycho-Légal"}</h2>
                     <p>
                         {
                             "Réalisation de nombreuses expertises à la demande d’avocats, de magistrats notamment de la Commission de Libération Conditionnelle et de particuliers. Participation à des recherches scientifiques concernant l’évaluation du risque et de la dangerosité des délinquants sexuels. Intégration dans une équipe spécialisée de prise en charge des auteurs d’infractions à caractère sexuel."
                         }
                     </p>
-                    <strong>{"Testing"}</strong>
+                    <h2>{"Testing"}</h2>
                     <p>
                         {
                             "Maîtrise des outils projectifs TAT et Rorschach, des inventaires de personnalité et des échelles en général. Participation à de nombreux séminaires et formations sur le Rorschach, encadrés par Le Pr. Anne Andronikoff de l’Université de Paris."

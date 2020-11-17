@@ -6,7 +6,6 @@ export default function Contact() {
     //You access to the store.
     const toggle = useSelector(state => state.ToggleReducer);
     const dispatch = useDispatch();
-    console.log("redux " + toggle);
 
     return (
         <Fragment>

@@ -1,25 +1,32 @@
-import React, {Fragment} from "react";
-import ImgOne from "../../mimified-img/psychothérapie.png";
+import React, {Fragment, useEffect} from "react";
+import ImgOne from "../../mimified-img/psychotherapie.png";
 import ImgTwo from "../../mimified-img/identité-sexuelle.jpg";
 import ImgThree from "../../mimified-img/planning-familiale.jpg";
 import ImgFive from "../../mimified-img/supervision.jpg";
 import ImgSix from "../../mimified-img/expertise.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function SectionOne() {
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    }, []);
     return (
         <Fragment>
             <section className={"section-one"} id={"section-one"}>
                 <div className={"text"}>
                     <div className={"part-one"}>
                         <div className={"text-one"}>
-                            <strong>{"Psychothérapie"}</strong>
+                            <h1>{"Psychothérapie"}</h1>
                             <div className={"img-one"}>
                                 <img src={ImgOne} />
                             </div>
+
                             <p>
                                 {
                                     "Partant du principe que nombre de nos difficultés sont liées à des mouvements intérieurs qui nous échappent - nous laissant souvent perplexes face à nos propres émotions, sensations et actes - la psychothérapie offre le moyen de se réapproprier le sens de nos réactions en explorant notre histoire personnelle et en retrouvant le sens de nos réactions actuelles dans la perspective globale de notre vie."
                                 }
                             </p>
+
                             <p>
                                 {
                                     "Le cabinet de consultation permet de mettre en place un cadre psychothérapeutique dans lequel, dans un climat de confiance, d'accueil, de bienveillance et d'absence de jugement, il est possible de déplier les ressentis, de s'y attarder, d'en comprendre le sens, de retisser le fil conducteur de l'historique de la douleur et de la replacer dans son contexte original et non plus dans les réalités du présent."
@@ -29,11 +36,11 @@ export default function SectionOne() {
                     </div>
                     <div className={"part-two"}>
                         <div className={"text-two"}>
-                            <strong>
+                            <h2>
                                 {
                                     "Inconfort lié à l'orientation ou l'identité sexuelle et de genre"
                                 }
-                            </strong>
+                            </h2>
                             <div className={"img-two"}>
                                 <img src={ImgTwo} />
                             </div>
@@ -52,7 +59,7 @@ export default function SectionOne() {
 
                     <div className={"part-three"}>
                         <div className={"text-three"}>
-                            <strong>{"Planning Familial"}</strong>
+                            <h2>{"Planning Familial"}</h2>
                             <div className={"img-three"}>
                                 <img src={ImgThree} />
                             </div>
@@ -66,7 +73,7 @@ export default function SectionOne() {
                     <div className={"part-four"}>
                         <div className={"img-four"}></div>
                         <div className={"text-four"}>
-                            <strong>{"Module de formation"}</strong>
+                            <h2>{"Module de formation"}</h2>
                             <p>
                                 {
                                     "Des modules de formation sur l'épreuve de Rorschach peuvent être suivi chaque année : présentation de l'épreuve et des consignes de passation, standardisation du recueil des réponses, système de cotatation et d'interprétation. Plus d'informations au 0479217263."
@@ -77,7 +84,7 @@ export default function SectionOne() {
                     <div className={"part-five"}>
                         <div className={"img-five"}></div>
                         <div className={"text-five"}>
-                            <strong>{"Supervision"}</strong>
+                            <h2>{"Supervision"}</h2>
                             <div className={"img-five"}>
                                 <img src={ImgFive} />
                             </div>
@@ -91,7 +98,7 @@ export default function SectionOne() {
                     <div className={"part-six"}>
                         <div className={"img-six"}></div>
                         <div className={"text-six"}>
-                            <strong>{"Evaluation et expertises"}</strong>
+                            <h2>{"Evaluation et expertises"}</h2>
                             <div className={"img-six"}>
                                 <img src={ImgSix} />
                             </div>

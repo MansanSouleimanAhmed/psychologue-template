@@ -22,6 +22,7 @@ export default function Navbar() {
         <SectionFour />,
         <Contact />,
     ];
+
     const config = {mass: 5, tension: 2000, friction: 200};
     const trail = useTrail(items.length, {
         config,
@@ -29,7 +30,7 @@ export default function Navbar() {
         opacity: toggleNav ? 1 : 0,
         marginTop: toggleNav ? 15 : 0,
     });
-
+    /*   */
     https: return (
         <nav className={"nav-bar"}>
             <div
@@ -42,7 +43,7 @@ export default function Navbar() {
 
             <div className={"toggle-item"}>
                 {trail.map(({height, opacity, marginTop}, index) => (
-                    <animated.div key={items[index]} className={"sub-item"}>
+                    <animated.div key={index} className={"sub-item"}>
                         <animated.div
                             style={{height, opacity, marginTop}}
                             className={"item"}>

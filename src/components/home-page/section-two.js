@@ -5,11 +5,11 @@ export default function SectionTwo() {
         <Fragment>
             <section className={"section-two"} id={"section-two"}>
                 <div className={"text"}>
-                    <strong>
+                    <h1>
                         {
                             "Pourquoi se lancer dans une psychanalyse ou une psychothérapie analytique ?"
                         }
-                    </strong>
+                    </h1>
                     <p>
                         {
                             "On peut aisément questionner la motivation à se lancer dans la longue, couteuse et parfois difficile entreprise qu'est l'analyse personnelle. La psychothérapie analytique, bien que plus légère, relève de questions similaires."
